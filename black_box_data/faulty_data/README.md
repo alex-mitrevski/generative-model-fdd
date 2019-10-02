@@ -23,7 +23,7 @@ The robot was commanded to move inside the lab using a joypad, such that wheel 3
 
 # Data plots
 
-The plotted data are filtered using a median filter with window size 3. The points of disconnecting/connecting the wheels are annotated in the plots by vertical lines (green in the velocity plot, cyan in all other plots); only one event for reconnecting the wheels was triggered since the wheels were connected in quick succession and the robot was not moving during that time.
+The plotted data are filtered using a median filter with window size 5. The points of disconnecting/connecting the wheels are annotated in the plots by vertical lines (green in the velocity plot, cyan in all other plots); only one event for reconnecting the wheels was triggered since the wheels were connected in quick succession and the robot was not moving during that time.
 
 ## Wheel currents
 
